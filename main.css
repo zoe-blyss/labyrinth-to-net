@@ -1,0 +1,105 @@
+body {
+  background-image:url(images/paper-cardboard-background.jpg);
+  background-size: cover;
+  background-repeat:repeat;
+  background-position: right top;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+img {
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+
+h2{
+  font-size: 3vw;
+  text-shadow: 2px 2px 4px #e3bb98;
+}
+
+p{
+  font-size: 2vw;
+  text-shadow: 2px 2px 4px #e3bb98;
+}
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!GRID!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* rules that I want to use on the parent (container)*/
+
+.grid-parent{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.align-items{
+  align-items: start;
+}
+
+/* rules that are for the items */
+
+.as-center{align-self: center;}
+.as-start{align-self: start;}
+.as-end{align-self: end;}
+
+.js-center{justify-self: center}
+.js-start{justify-self: start;}
+.js-end{justify-self: end;}
+
+/* rules that are for placing items */
+
+.cs-1{grid-column-start: 1}
+.cs-2{grid-column-start: 2}
+.cs-3{grid-column-start: 3}
+.cs-4{grid-column-start: 4}
+.cs-5{grid-column-start: 5}
+.cs-6{grid-column-start: 6}
+.cs-7{grid-column-start: 7}
+.cs-8{grid-column-start: 8}
+.cs-9{grid-column-start: 9}
+.cs-10{grid-column-start: 10}
+.cs-11{grid-column-start: 11}
+
+
+.ce-1{grid-column-end: 1}
+.ce-2{grid-column-end: 2}
+.ce-3{grid-column-end: 3}
+.ce-4{grid-column-end: 4}
+.ce-5{grid-column-end: 5}
+.ce-6{grid-column-end: 6}
+.ce-7{grid-column-end: 7}
+.ce-8{grid-column-end: 8}
+.ce-9{grid-column-end: 9}
+.ce-10{grid-column-end: 10}
+.ce-11{grid-column-end: 11}
+
+
+
+.rs-1{grid-row-start: 1}
+.rs-2{grid-row-start: 2}
+.rs-3{grid-row-start: 3}
+.rs-4{grid-row-start: 4}
+.rs-5{grid-row-start: 5}
+.rs-6{grid-row-start: 6}
+.rs-7{grid-row-start: 7}
+.rs-8{grid-row-start: 8}
+.rs-9{grid-row-start: 9}
+.rs-10{grid-row-start: 10}
+.rs-11{grid-row-start: 11}
+
+.re-1{grid-row-end: 1}
+.re-2{grid-row-end: 2}
+.re-3{grid-row-end: 3}
+.re-4{grid-row-end: 4}
+.re-5{grid-row-end: 5}
+.re-6{grid-row-end: 6}
+.re-7{grid-row-end: 7}
+.re-8{grid-row-end: 8}
+.re-9{grid-row-end: 9}
+.re-10{grid-row-end: 10}
+.re-11{grid-row-end: 11}
+
+
+img{
+  width: 100%;
+}

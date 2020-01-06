@@ -1,0 +1,58 @@
+/*p{
+  color: red;
+  font-size: 15px;
+} */
+
+
+/* tag selectors *
+h1{
+  font-size: 5vw;
+}
+*/
+
+/* https://css-tricks.com/box-sizing/ */
+
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+
+body{
+  background-color: rgb(30, 6, 36);
+  color:rgb(233, 204, 215);
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.special-color{
+  background-color: rgb(181, 132, 221);
+  color: rgb(51, 225, 0);
+  padding: 100px;
+  height: 300;
+  width: 400;
+  overflow: hidden;
+}
+/* utility class */
+.red{color: red;}
+.bold {font-weight:bold;}
+.bigmargin{margin: 100px;}
+.extra-left{margin-left: 100px;}
+/* no spaces in "extra left" - use a dash instead (extra-left)*/
+
+#first{
+  color: blue;
+}
+
+a{
+  color: blue;
+}
+
+/*hover pseudoclass*/
+a:hover{
+  color: red;
+}
+
+/* select all img tags inside fo the #first ID's section element
+
+just work on one axis, will automatically change the other - teacher recommends width*/
+
+#first img{
+  width: 100px;
+
+}
